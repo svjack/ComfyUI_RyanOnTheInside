@@ -1,3 +1,16 @@
+```bash
+conda activate system
+modelscope download svjack/float --local_dir="float"
+cp -r float ComfyUI/models
+mkdir -p .cache/torch/hub/checkpoints
+
+cp  float/master.zip .cache/torch/hub
+cp  float/vocals-bccbd9aa.pth .cache/torch/hub/checkpoints
+cp  float/drums-69e0ebd4.pth .cache/torch/hub/checkpoints
+cp  float/bass-2ca1ce51.pth .cache/torch/hub/checkpoints
+cp  float/other-c8c5b3e6.pth .cache/torch/hub/checkpoints
+```
+
 # ComfyUI RyanOnTheInside Node Pack
 
 **[ryanontheinside.com](https://ryanontheinside.com)** | [GitHub](https://github.com/ryanontheinside/ComfyUI_RyanOnTheInside) | [Civitai](https://civitai.com/user/RyanOnTheInside) | [YouTube](https://www.youtube.com/@RyanOnTheInside)
