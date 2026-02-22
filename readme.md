@@ -9,6 +9,12 @@ cp  float/vocals-bccbd9aa.pth .cache/torch/hub/checkpoints
 cp  float/drums-69e0ebd4.pth .cache/torch/hub/checkpoints
 cp  float/bass-2ca1ce51.pth .cache/torch/hub/checkpoints
 cp  float/other-c8c5b3e6.pth .cache/torch/hub/checkpoints
+
+git clone https://github.com/svjack/ComfyUI_RyanOnTheInside
+pip install -r ComfyUI_RyanOnTheInside/requirements.txt
+git clone https://github.com/chrisgoringe/cg-use-everywhere
+
+audio_&_video_driven_song_visualization.json
 ```
 
 # ComfyUI RyanOnTheInside Node Pack
